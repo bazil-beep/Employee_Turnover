@@ -33,7 +33,7 @@ The dataset contains employee-related features such as:
 - Pandas
 - NumPy
 - Matplotlib, Seaborn (for Visualization)
-- Scikit-learn (Logistic Regression, Decision Trees, etc.)
+- Scikit-learn (Logistic Regression, Random Forest, etc.)
 - Jupyter Notebook
 
 ---
@@ -41,7 +41,7 @@ The dataset contains employee-related features such as:
 ##  ML Models Used
 
 - Logistic Regression
-- Decision Tree Classifier
+- Gradient Boosting Classifier
 - Random Forest Classifier
 
 ---
@@ -58,16 +58,16 @@ The dataset contains employee-related features such as:
 
 | Model                | Accuracy |
 |---------------------|----------|
-| Logistic Regression | 83%      |
-| Decision Tree       | 85%      |
-| Random Forest       | 88%      |
+| Logistic Regression | 80%      |
+| Gradient boosting   | 96%      |
+| Random Forest       | 99%      |
 
 ---
 
 ##  Conclusion
 
 - High overtime and low job satisfaction are key drivers of attrition.
-- Random Forest gave the best result with 88% accuracy.
+- Random Forest gave the best result with 99% accuracy.
 - HR should focus on employee wellness and proper compensation to retain talent.
 
 ---
